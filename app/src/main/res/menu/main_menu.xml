@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="reset" android:id="@+id/reset"
+        android:icon="@drawable/reset" app:showAsAction="always"/>
+    <item android:title="LEVEL" android:id="@+id/m1">
+        <menu>
+            <item android:title="EASY" android:id="@+id/sm1"/>
+
+            <item android:title="DIFFICULT" android:id="@+id/sm2"/>
+        </menu>
+
+
+
+    </item>
+
+
+
+</menu>
