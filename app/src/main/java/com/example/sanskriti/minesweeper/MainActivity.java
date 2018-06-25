@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void setUpBoard() {
         rows = new ArrayList<>();
-
+        count = 0;
         currentStatus = INCOMPLETE;
         board = new MSButton[SIZE1][SIZE2];
 
